@@ -80,8 +80,7 @@ function save() {
     
     if(count>20){
        
-        winner.textContent="winner";
-        winner1.textContent="looser";
+        
         count=""
         countEl.textContent="winner"
         countE2.textContent="looser"
@@ -214,9 +213,7 @@ function pluss3() {
 function save1() {
     if(count1>20){
        
-        winner1.textContent="winner";
-        
-        winner.textContent="looser";
+    
         
         count1=""
         countE2.textContent="winner"
@@ -227,7 +224,7 @@ function save1() {
     let countStr1 = count1 + " - "
     saveE2.textContent += countStr1
    
-    countStr1.textContent=0
+    countStr1.textContent=count1
 }
 countE2.textContent = count1
 
@@ -236,4 +233,13 @@ countE2.textContent = count1
 
 
 
+let time=new Date()
+let timer=time.setHours()
 
+function timerr(){
+
+    if(timer>=10 && timer<=12 ){
+  dar }
+else { return whiteMode }
+}
+timerr()
